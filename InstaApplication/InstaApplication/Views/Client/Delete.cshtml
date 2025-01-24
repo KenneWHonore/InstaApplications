@@ -1,0 +1,143 @@
+﻿@model InstaApplication.Models.Client
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+
+    <!-- Intégration du CSS directement dans la vue -->
+    <style>
+        /* Général */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f7f6;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Titre principal */
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+            font-size: 2.5rem;
+            margin-top: 30px;
+            font-weight: bold;
+        }
+
+        /* Sous-titre */
+        h3 {
+            text-align: center;
+            color: #e74c3c;
+            font-size: 1.8rem;
+            margin-bottom: 20px;
+            font-weight: 600;
+        }
+
+        /* Détails du client */
+        .details-container {
+            width: 100%;
+            max-width: 600px;
+            margin: 30px auto;
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+            .details-container dl {
+                margin: 0;
+            }
+
+            .details-container dt {
+                font-weight: bold;
+                color: #34495e;
+            }
+
+            .details-container dd {
+                color: #7f8c8d;
+                margin-bottom: 10px;
+            }
+
+        /* Bouton de suppression */
+        input[type="submit"] {
+            background-color: #e74c3c;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1.1rem;
+            transition: background-color 0.3s;
+            margin-top: 20px;
+        }
+
+            input[type="submit"]:hover {
+                background-color: #c0392b;
+            }
+
+        /* Lien Back to List */
+        a {
+            color: #3498db;
+            text-decoration: none;
+            font-weight: bold;
+            margin-left: 10px;
+            font-size: 1rem;
+            transition: color 0.3s;
+        }
+
+            a:hover {
+                color: #2980b9;
+            }
+    </style>
+</head>
+<body>
+
+    <h1>@ViewData["Title"]</h1>
+    <h3>Êtes-vous sûr de vouloir supprimer ce client ?</h3>
+
+    <div class="details-container">
+        <h4>Informations du Client</h4>
+        <hr />
+        <dl class="row">
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.Name)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.Name)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.Prenom)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.Prenom)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.age)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.age)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.adresse)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.adresse)
+            </dd>
+        </dl>
+
+        <form asp-action="Delete">
+            <input type="hidden" asp-for="Id" />
+            <input type="submit" value="Supprimer" class="btn btn-danger" />
+            <a asp-action="Index">Retour à la liste</a>
+        </form>
+    </div>
+
+</body>
+</html>

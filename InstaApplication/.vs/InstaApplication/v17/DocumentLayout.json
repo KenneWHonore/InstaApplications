@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\kenne\\source\\repos\\InstaApplication\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{94589C19-93AC-41AA-B3C2-2C8938F4645D}|InstaApplication\\InstaApplication.csproj|c:\\users\\kenne\\source\\repos\\instaapplication\\instaapplication\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{94589C19-93AC-41AA-B3C2-2C8938F4645D}|InstaApplication\\InstaApplication.csproj|solutionrelative:instaapplication\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{94589C19-93AC-41AA-B3C2-2C8938F4645D}|InstaApplication\\InstaApplication.csproj|c:\\users\\kenne\\source\\repos\\instaapplication\\instaapplication\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{94589C19-93AC-41AA-B3C2-2C8938F4645D}|InstaApplication\\InstaApplication.csproj|solutionrelative:instaapplication\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94589C19-93AC-41AA-B3C2-2C8938F4645D}|InstaApplication\\InstaApplication.csproj|c:\\users\\kenne\\source\\repos\\instaapplication\\instaapplication\\views\\client\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{94589C19-93AC-41AA-B3C2-2C8938F4645D}|InstaApplication\\InstaApplication.csproj|solutionrelative:instaapplication\\views\\client\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94589C19-93AC-41AA-B3C2-2C8938F4645D}|InstaApplication\\InstaApplication.csproj|c:\\users\\kenne\\source\\repos\\instaapplication\\instaapplication\\views\\produits\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{94589C19-93AC-41AA-B3C2-2C8938F4645D}|InstaApplication\\InstaApplication.csproj|solutionrelative:instaapplication\\views\\produits\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94589C19-93AC-41AA-B3C2-2C8938F4645D}|InstaApplication\\InstaApplication.csproj|c:\\users\\kenne\\source\\repos\\instaapplication\\instaapplication\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{94589C19-93AC-41AA-B3C2-2C8938F4645D}|InstaApplication\\InstaApplication.csproj|solutionrelative:instaapplication\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{94589C19-93AC-41AA-B3C2-2C8938F4645D}|InstaApplication\\InstaApplication.csproj|c:\\users\\kenne\\source\\repos\\instaapplication\\instaapplication\\views\\produits\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -31,14 +39,6 @@
       "RelativeMoniker": "D:0:0:{94589C19-93AC-41AA-B3C2-2C8938F4645D}|InstaApplication\\InstaApplication.csproj|solutionrelative:instaapplication\\views\\produits\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{94589C19-93AC-41AA-B3C2-2C8938F4645D}|InstaApplication\\InstaApplication.csproj|c:\\users\\kenne\\source\\repos\\instaapplication\\instaapplication\\views\\produits\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{94589C19-93AC-41AA-B3C2-2C8938F4645D}|InstaApplication\\InstaApplication.csproj|solutionrelative:instaapplication\\views\\produits\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{94589C19-93AC-41AA-B3C2-2C8938F4645D}|InstaApplication\\InstaApplication.csproj|c:\\users\\kenne\\source\\repos\\instaapplication\\instaapplication\\views\\client\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{94589C19-93AC-41AA-B3C2-2C8938F4645D}|InstaApplication\\InstaApplication.csproj|solutionrelative:instaapplication\\views\\client\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{94589C19-93AC-41AA-B3C2-2C8938F4645D}|InstaApplication\\InstaApplication.csproj|c:\\users\\kenne\\source\\repos\\instaapplication\\instaapplication\\views\\client\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{94589C19-93AC-41AA-B3C2-2C8938F4645D}|InstaApplication\\InstaApplication.csproj|solutionrelative:instaapplication\\views\\client\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
@@ -50,36 +50,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\kenne\\source\\repos\\InstaApplication\\InstaApplication\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "InstaApplication\\Views\\Home\\Index.cshtml",
               "ToolTip": "C:\\Users\\kenne\\source\\repos\\InstaApplication\\InstaApplication\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "InstaApplication\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-01-24T02:32:13.708Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\kenne\\source\\repos\\InstaApplication\\InstaApplication\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "InstaApplication\\Views\\Shared\\_Layout.cshtml",
               "ToolTip": "C:\\Users\\kenne\\source\\repos\\InstaApplication\\InstaApplication\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "InstaApplication\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAHMAAAAAAAAAAAAkwIwAAAA7AAAAAAAAAA==",
+              "ViewState": "AgIAACoAAAAAAAAAAAAkwDQAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-24T02:21:31.837Z"
+              "WhenOpened": "2025-01-24T02:21:31.837Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Users\\kenne\\source\\repos\\InstaApplication\\InstaApplication\\Views\\Produits\\Delete.cshtml",
               "RelativeDocumentMoniker": "InstaApplication\\Views\\Produits\\Delete.cshtml",
@@ -91,7 +92,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Users\\kenne\\source\\repos\\InstaApplication\\InstaApplication\\Views\\Client\\Delete.cshtml",
               "RelativeDocumentMoniker": "InstaApplication\\Views\\Client\\Delete.cshtml",
@@ -103,7 +104,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\kenne\\source\\repos\\InstaApplication\\InstaApplication\\Views\\Produits\\Edit.cshtml",
               "RelativeDocumentMoniker": "InstaApplication\\Views\\Produits\\Edit.cshtml",
@@ -115,7 +116,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\kenne\\source\\repos\\InstaApplication\\InstaApplication\\Views\\Client\\Edit.cshtml",
               "RelativeDocumentMoniker": "InstaApplication\\Views\\Client\\Edit.cshtml",
@@ -127,7 +128,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\kenne\\source\\repos\\InstaApplication\\InstaApplication\\Views\\Produits\\Index.cshtml",
               "RelativeDocumentMoniker": "InstaApplication\\Views\\Produits\\Index.cshtml",
@@ -139,7 +140,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 2,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\kenne\\source\\repos\\InstaApplication\\InstaApplication\\Views\\Produits\\Create.cshtml",
               "RelativeDocumentMoniker": "InstaApplication\\Views\\Produits\\Create.cshtml",
@@ -147,19 +148,21 @@
               "RelativeToolTip": "InstaApplication\\Views\\Produits\\Create.cshtml",
               "ViewState": "AgIAAHsAAAAAAAAAAAAAAIcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-24T02:14:12.965Z"
+              "WhenOpened": "2025-01-24T02:14:12.965Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 1,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\kenne\\source\\repos\\InstaApplication\\InstaApplication\\Views\\Client\\Create.cshtml",
               "RelativeDocumentMoniker": "InstaApplication\\Views\\Client\\Create.cshtml",
               "ToolTip": "C:\\Users\\kenne\\source\\repos\\InstaApplication\\InstaApplication\\Views\\Client\\Create.cshtml",
               "RelativeToolTip": "InstaApplication\\Views\\Client\\Create.cshtml",
-              "ViewState": "AgIAAHIAAAAAAAAAAAAAAH4AAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAAJAAAAAAAAAAAAAAAH4AAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-24T02:06:49.931Z"
+              "WhenOpened": "2025-01-24T02:06:49.931Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",

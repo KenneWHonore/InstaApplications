@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("InstaApplication")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+44c0c8023e333de9d2f72a3390343b1f20cda08e")]
 [assembly: System.Reflection.AssemblyProductAttribute("InstaApplication")]
 [assembly: System.Reflection.AssemblyTitleAttribute("InstaApplication")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

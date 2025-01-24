@@ -15,22 +15,22 @@
             flex-grow: 1;
         }
 
-        /* Liens "Client" et "Produit" à droite */
-        .navbar-nav .nav-item:last-child,
-        .navbar-nav .nav-item:nth-last-child(2) {
-            margin-left: auto;
-        }
+            /* Liens "Client" et "Produit" à droite */
+            .navbar-nav .nav-item:last-child,
+            .navbar-nav .nav-item:nth-last-child(2) {
+                margin-left: auto;
+            }
 
-        /* Style des liens navbar */
-        .navbar-nav .nav-link {
-            font-weight: 500;
-            color: #34495e;
-            transition: color 0.3s ease;
-        }
+            /* Style des liens navbar */
+            .navbar-nav .nav-link {
+                font-weight: 500;
+                color: #34495e;
+                transition: color 0.3s ease;
+            }
 
-        .navbar-nav .nav-link:hover {
-            color: #3498db;
-        }
+                .navbar-nav .nav-link:hover {
+                    color: #3498db;
+                }
 
         /* Titre de la page */
         h1 {
@@ -44,24 +44,26 @@
         /* Conteneur principal */
         .container {
             margin-top: 40px;
+            margin-bottom: 50px; /* Ajout d'une marge pour éviter que le footer cache les éléments */
         }
 
         /* Footer */
         footer {
             background-color: #f4f7f6;
-            padding: 20px;
+            padding: 0px; /* Réduction du padding du footer */
+            font-size: 0.8rem; /* Réduction de la taille de la police */
             text-align: center;
         }
 
-        footer a {
-            color: #3498db;
-            text-decoration: none;
-            font-weight: 500;
-        }
+            footer a {
+                color: #3498db;
+                text-decoration: none;
+                font-weight: 500;
+            }
 
-        footer a:hover {
-            color: #2980b9;
-        }
+                footer a:hover {
+                    color: #2980b9;
+                }
 
         /* Liens navbar centrés */
         .navbar-brand {
@@ -70,9 +72,9 @@
             font-size: 1.8rem;
         }
 
-        .navbar-brand:hover {
-            color: #3498db;
-        }
+            .navbar-brand:hover {
+                color: #3498db;
+            }
 
         /* Modifier le fond de la navbar */
         .navbar {
@@ -85,11 +87,11 @@
             margin-left: 20px;
         }
 
-        /* Animation hover pour les éléments */
-        .navbar-nav .nav-item:hover {
-            background-color: #ecf0f1;
-            border-radius: 5px;
-        }
+            /* Animation hover pour les éléments */
+            .navbar-nav .nav-item:hover {
+                background-color: #ecf0f1;
+                border-radius: 5px;
+            }
 
         /* Suppression du contour sur les liens au focus */
         .navbar-nav .nav-link:focus {

@@ -286,3 +286,4 @@ C:\Users\kenne\source\repos\InstaApplication\InstaApplication\bin\Debug\net8.0\r
 C:\Users\kenne\source\repos\InstaApplication\InstaApplication\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Drawing.Common.dll
 C:\Users\kenne\source\repos\InstaApplication\InstaApplication\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\kenne\source\repos\InstaApplication\InstaApplication\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
+C:\Users\kenne\source\repos\InstaApplication\InstaApplication\obj\Debug\net8.0\InstaApplication.sourcelink.json
